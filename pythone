@@ -1,0 +1,3 @@
+with open("python text_file","r") as fr:
+    for line in fr:
+        print(line.strip())
